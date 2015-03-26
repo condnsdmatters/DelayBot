@@ -319,7 +319,7 @@ zulip_username = os.environ["DELAYBOT_USR"]
 zulip_api_key = os.environ["DELAYBOT_API"]
 key_word = "DelayBot"
 # an empty list will make it subscribe to all streams
-subscribed_streams = ["test-bot"]
+subscribed_streams = []
 
 # won't run DelayBot when this file is imported
 if __name__ == "__main__":
